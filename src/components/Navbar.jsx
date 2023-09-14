@@ -3,10 +3,9 @@ import { GrContact } from "react-icons/gr";
 
 function Navbar() {
   return (
-    <nav className="flex h-16 items-center justify-between px-2 md:px-4 w-full max-w-6xl min-w-[320px]">
-      <h1 className="text-xl md:text-3xl flex text-yellow-400 font-bold">
+    <nav className="flex bg-zinc-950 h-16 items-center justify-between px-2 md:px-4 w-full max-w-6xl min-w-[320px] sticky top-0">
+      <h1 className="text-xl md:text-4xl flex text-yellow-400 font-bold">
         KIAN
-        <p className="w-1 h-1 md:w-2 md:h-2 ml-1 border mt-6 rounded-full bg-yellow-400 "></p>
       </h1>
       <div className="flex md:text-xl text-slate-100 md:gap-2 cursor-pointer">
         <Link className="hover:text-yellow-400 hover:bg-slate-600 p-2 rounded-xl hover:font-bold">

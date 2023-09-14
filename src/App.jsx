@@ -1,14 +1,17 @@
 import "./App.css";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects"
 
 function App() {
   return (
-    <>
-    {/* <Home/> */}
-    <Navbar/>
-    <Intro/>
-    </>
+    <div >
+      <Navbar />
+      <Intro />
+      <Skills />
+<Projects/>
+    </div>
   );
 }
 

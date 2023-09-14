@@ -41,9 +41,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   /* max-height: 100vh; */
-  background-color: #202030;
+  background-color: #000;
   color: white;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* background-image: url("./assets/bg2.webp"); */
   /* background-size: cover;
   background-position: center;
