@@ -3,7 +3,7 @@ import { GrContact } from "react-icons/gr";
 
 function Navbar() {
   return (
-    <nav className="flex h-16 bg-red-300 items-center justify-between px-2 md:px-4 w-full max-w-6xl min-w-[320px]">
+    <nav className="flex h-16 items-center justify-between px-2 md:px-4 w-full max-w-6xl min-w-[320px]">
       <h1 className="text-xl md:text-3xl flex text-yellow-400 font-bold">
         KIAN
         <p className="w-1 h-1 md:w-2 md:h-2 ml-1 border mt-6 rounded-full bg-yellow-400 "></p>
