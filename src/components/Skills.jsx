@@ -9,8 +9,8 @@ function Skills() {
             What I do
           </span>
           <br />
-          <span className="flex justify-center text-2xl">
-            <p className="flex justify-center p-8">
+          <span className="flex justify-center text-xl md:text-2xl">
+            <p className="flex justify-center p-6">
               As a skilled and passionate web developer, I specialize in
               utilizing JavaScript, React, HTML, CSS, and TailwindCSS to design
               and develop responsive and user-friendly websites. My expertise in
@@ -28,7 +28,7 @@ function Skills() {
                 <h2 className="text-2xl font-bold text-yellow-400">
                   Web Developer
                 </h2>
-                <p className="text-lg">
+                <p className="text-lg pr-2">
                   responsive and user-friendly web developer
                 </p>
               </div>
