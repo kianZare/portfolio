@@ -3,9 +3,9 @@ import { PiSuitcaseFill } from "react-icons/pi";
 
 function Intro() {
   return (
-    <div className="flex w-full max-w-6xl h-[100vh] bg-zinc-950">
+    <div className="flex w-full max-w-6xl h-[calc(100vh-64px)]">
       <section className="relative flex w-full max-w-6xl justify-between object-cover">
-        <div className="p-4 mt-20 md:mt-40 z-10 relative">
+        <div className="flex flex-col justify-center p-4 z-10 ">
           <span className="text-blue-800 md:text-slate-100 text-2xl md:text-3xl">
             Hello
           </span>
@@ -31,7 +31,7 @@ function Intro() {
           </span>
           <br />
           <br />
-          <button className="border p-2 px-4 rounded-xl bg-slate-300 text-slate-800 font-bold flex justify-center items-center gap-3 text-xl hover:text-yellow-400 hover:bg-slate-600">
+          <button className="border sm:max-w-[240px] mb-10 p-2 px-4 rounded-xl bg-slate-300 text-slate-800 font-bold flex justify-center items-center gap-3 text-xl hover:text-yellow-400 hover:bg-slate-600">
             <PiSuitcaseFill className="text-3xl" />
             Hire Me
           </button>
@@ -39,7 +39,7 @@ function Intro() {
         <img
           src={kian}
           alt="profile"
-          className=" z-0 absolute right-0 mt-8 p-4 ml-4 w-[450px] object-cover "
+          className=" z-0 absolute right-0 mt-4 md:p-4 ml-4 w-[410px] object-fit"
         />
       </section>
     </div>

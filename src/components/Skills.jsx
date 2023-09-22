@@ -2,8 +2,8 @@ import webDev from "../assets/web5.avif";
 
 function Skills() {
   return (
-    <div className="flex max-w-6xl justify-center items-center">
-      <div className="flex bg-zinc-950 p-4 pt-20 justify-center items-center">
+    <div className="flex max-w-6xl justify-center items-center ">
+      <div className="z-10 flex p-4 pt-20 justify-center items-center">
         <section className="flex-col justify-center items-center">
           <span className="flex justify-center text-6xl font-bold">
             What I do
