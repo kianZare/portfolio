@@ -37,7 +37,7 @@ function Contact() {
         <h1 className='flex justify-center text-6xl font-bold mb-4 "'>
           Contact Me
         </h1>
-        <span className="flex justify-center items-center p-2 text-xl ">
+        <span className="flex ml-2 justify-center items-center p-2 text-xl ">
           Please fill out the form below to discuss any work opportunites
         </span>
 
@@ -74,7 +74,7 @@ function Contact() {
               Submit
             </button>
           </div>
-          <div className="flex justify-center items-center p-4 mt-8">
+          <div className="flex justify-center items-center mt-6">
             <a href="http://linkedin.com/in/kian-zareinajad">
               <img
                 className="flex w-16 md:w-24 m-2 hover:scale-110"
