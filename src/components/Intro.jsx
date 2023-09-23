@@ -3,7 +3,7 @@ import { PiSuitcaseFill } from "react-icons/pi";
 
 function Intro() {
   return (
-    <div id="intro" className="flex w-full max-w-6xl mt-10 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]">
+    <div id="intro" className="flex w-full max-w-6xl mt-2 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]">
       <section className="relative flex w-full max-w-6xl justify-between object-cover">
         <div className="flex flex-col justify-center p-4 z-10 ">
           <span className="text-blue-800 md:text-slate-100 text-2xl md:text-3xl">
