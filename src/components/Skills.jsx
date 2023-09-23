@@ -1,9 +1,14 @@
-import webDev from "../assets/web5.avif";
+import webDev from "../assets/web0.webp";
+import react from "../assets/react3.png"
+import js from "../assets/js2.jfif"
+import html from "../assets/HTML1.png"
+import css from "../assets/css.png"
+import tailwind from "../assets/download.png"
 
 function Skills() {
   return (
-    <div className="flex max-w-6xl justify-center items-center ">
-      <div className="z-10 flex p-4 pt-20 justify-center items-center">
+    <div id="skills" className="flex max-w-6xl justify-center items-center mb-12 ">
+      <div className="z-10 flex p-4 justify-center items-center">
         <section className="flex-col justify-center items-center">
           <span className="flex justify-center text-6xl font-bold">
             What I do
@@ -23,7 +28,7 @@ function Skills() {
           </span>
           <div className="flex justify-center mb-10">
             <div className="flex justify-center items-center border rounded-2xl mt-12 gap-4 overflow-hidden">
-              <img src={webDev} alt="webDev" className="w-32 md:w-60  " />
+              <img src={webDev} alt="webDev" className="w-32 md:w-60 h-24 md:h-40 " />
               <div>
                 <h2 className="text-2xl font-bold text-yellow-400">
                   Web Developer
@@ -33,6 +38,13 @@ function Skills() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="flex justify-center object-cover gap-2 mt-20">
+            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={react} alt="" />
+            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={js} alt="" />
+            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={html} alt="" />
+            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={css} alt="" />
+            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={tailwind} alt="" />
           </div>
         </section>
       </div>

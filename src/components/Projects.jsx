@@ -20,8 +20,8 @@ import calculator from "../assets/projects/calculator.png";
 
 function Projects() {
   return (
-    <div className="flex max-w-6xl justify-center items-center ">
-      <section className="p-4 pt-20 justify-center items-center">
+    <div id="projects" className="flex max-w-6xl justify-center items-center ">
+      <section className="p-4 mb-16 justify-center items-center">
         <h1 className="flex justify-center text-6xl font-bold p-8">
           My Projects
         </h1>
