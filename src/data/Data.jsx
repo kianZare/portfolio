@@ -33,7 +33,7 @@ export const projects = [
       name: "Movie Character App",
       about: "",
       description: "A responsive web site using React.js , API",
-      siteUrl: "kian-movie-character-app.netlify.app/",
+      siteUrl: "https://kian-movie-character-app.netlify.app/",
       imageUrl: "../assets/projects/Rick&morty.png",
     },
     {
