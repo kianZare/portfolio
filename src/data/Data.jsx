@@ -2,27 +2,27 @@ export const skills = [
     {
       id:1,
       name:"react",
-      imageUrl: "../../public/assets/skills/react3.png",
+      imageUrl: "../assets/skills/react3.png",
     },
     {
       id:2,
       name:"js",
-      imageUrl: "../../public/assets/skills/js2.jfif",
+      imageUrl: "../assets/skills/js2.jfif",
     },
     {
       id:3,
       name:"html",
-      imageUrl: "../../public/assets/skills/HTML1.png",
+      imageUrl: "../assets/skills/HTML1.png",
     },
     {
       id:4,
       name:"css",
-      imageUrl: "../../public/assets/skills/css.png",
+      imageUrl: "../assets/skills/css.png",
     },
     {
       id:5,
       name:"tailwind",
-      imageUrl: "../../public/assets/skills/tailwind.png",
+      imageUrl: "../assets/skills/tailwind.png",
     },
   ];
 
@@ -34,7 +34,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js , API",
       siteUrl: "https://kian-rick-and-morty.netlify.app/",
-      imageUrl: "../../public/assets/projects/Rick&morty.png",
+      imageUrl: "../assets/projects/Rick&morty.png",
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js",
       siteUrl: "https://kianzare.github.io/ShoppingCart/",
-      imageUrl: "../../public/assets/projects/shopping.png",
+      imageUrl: "../assets/projects/shopping.png",
     },
   
     {
@@ -51,7 +51,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js",
       siteUrl: "https://kianzare.github.io/Digitize-Shop/public/watch.html",
-      imageUrl: "../../public/assets/projects/digitiz.png",
+      imageUrl: "../assets/projects/digitiz.png",
     },
     {
       id: 4,
@@ -59,7 +59,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js , API",
       siteUrl: "https://catshopping.netlify.app/Cart",
-      imageUrl: "../../public/assets/projects/cats4life.png",
+      imageUrl: "../assets/projects/cats4life.png",
     },
     {
       id: 5,
@@ -67,7 +67,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js , API",
       siteUrl: "https://kian-searchphotos.netlify.app/",
-      imageUrl: "../../public/assets/projects/searchphoto.png",
+      imageUrl: "../assets/projects/searchphoto.png",
     },
     {
       id: 6,
@@ -75,7 +75,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js",
       siteUrl: "https://kianzare.github.io/notesAPP/",
-      imageUrl: "../../public/assets/projects/noteapp.png",
+      imageUrl: "../assets/projects/noteapp.png",
     },
     {
       id: 7,
@@ -83,7 +83,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js",
       siteUrl: "https://kianzare.github.io/clock/",
-      imageUrl: "../../public/assets/projects/clock.png",
+      imageUrl: "../assets/projects/clock.png",
     },
     {
       id: 8,
@@ -91,7 +91,7 @@ export const projects = [
       about: "",
       description: "A responsive web site using React.js",
       siteUrl: "https://kianzare.github.io/notesAPP/",
-      imageUrl: "../../public/assets/projects/calculator.png",
+      imageUrl: "../assets/projects/calculator.png",
     },
   ];
   
