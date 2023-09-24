@@ -135,7 +135,7 @@ function Navbar() {
           >
             Contact
           </Link>
-        </div>{" "}
+        </div>
       </div>
     </nav>
   );

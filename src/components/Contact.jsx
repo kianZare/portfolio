@@ -1,9 +1,7 @@
-import linkedin from "../assets/link/linkedin.png";
-import github from "../assets/link/github.png";
-import phone from "../assets/link/phone.png";
-import email from "../assets/link/gmail.png";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import {contacts} from "../data/Data"
+
 
 function Contact() {
   const form = useRef();
@@ -21,7 +19,7 @@ function Contact() {
         (result) => {
           console.log(result.text);
           e.target.reset();
-          alert("Thanks! You sent your email successfully!");
+          alert("Thanks! You sent your text successfully!");
         },
         (error) => {
           console.log(error.text);
@@ -51,18 +49,21 @@ function Contact() {
             placeholder="Your Name"
             name="your_name"
             className="border h-10 px-4 py-7 bg-slate-700 m-1 rounded-lg"
+            required
           />
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
             name="your_email"
             className="border h-10 px-4 py-7 bg-slate-700 m-1 rounded-lg"
+            required
           />
           <textarea
             name="message"
             rows="5"
             placeholder="Your Message"
             className="p-4 bg-slate-700 m-1 rounded-lg"
+            required
           ></textarea>
           <div className="flex justify-center m-2">
             <button
@@ -74,37 +75,20 @@ function Contact() {
               Submit
             </button>
           </div>
-          <div className="flex justify-center items-center mt-6">
-            <a href="http://linkedin.com/in/kian-zareinajad">
-              <img
-                className="flex w-16 md:w-24 m-2 hover:scale-110"
-                src={linkedin}
-                alt="linkedin"
-              />
-            </a>
-            <a href="https://github.com/kianZare">
-              <img
-                className="flex w-16 md:w-24 m-2 hover:scale-110"
-                src={github}
-                alt="github"
-              />
-            </a>
-            <a href="mailto:kianzareinejad@gmail.com">
-              <img
-                className="flex w-16 md:w-24 m-2 hover:scale-110"
-                src={email}
-                alt="email"
-              />
-            </a>
-            <a href="tel:+447508001908">
-              <img
-                className="flex w-[71px] md:w-[107px] m-1 hover:scale-110"
-                src={phone}
-                alt="phone"
-              />
-            </a>
-          </div>
         </form>
+        <div className="flex justify-center items-center mt-6">
+          {contacts.map((item) => (
+            <>
+              <a href={item.URL} key={item.id}>
+                <img
+                  className="flex w-16 md:w-24 m-2 hover:scale-110"
+                  src={item.imageUrl}
+                  alt={item.name}
+                />
+              </a>
+            </>
+          ))}
+        </div>
       </section>
     </div>
   );

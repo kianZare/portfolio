@@ -1,9 +1,6 @@
 import webDev from "../assets/web0.webp";
-import react from "../assets/react3.png"
-import js from "../assets/js2.jfif"
-import html from "../assets/HTML1.png"
-import css from "../assets/css.png"
-import tailwind from "../assets/download.png"
+import {skills} from "../data/Data"
+
 
 function Skills() {
   return (
@@ -39,12 +36,12 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center object-cover gap-2 mt-20">
-            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={react} alt="" />
-            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={js} alt="" />
-            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={html} alt="" />
-            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={css} alt="" />
-            <img className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={tailwind} alt="" />
+          <div className="flex justify-center object-cover gap-2 mt-8">
+            {skills.map((item) => (
+              <>
+                <img key={item.id} className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={item.imageUrl} alt={item.name} />
+              </>
+            ))}
           </div>
         </section>
       </div>
