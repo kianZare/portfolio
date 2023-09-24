@@ -30,10 +30,10 @@ export const skills = [
 export const projects = [
     {
       id: 1,
-      name: "Rick and Morty",
+      name: "Movie Character App",
       about: "",
       description: "A responsive web site using React.js , API",
-      siteUrl: "https://kian-rick-and-morty.netlify.app/",
+      siteUrl: "kian-movie-character-app.netlify.app/",
       imageUrl: "../assets/projects/Rick&morty.png",
     },
     {
