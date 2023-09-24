@@ -5,7 +5,7 @@ function Intro() {
   return (
     <div
       id="intro"
-      className="flex w-full max-w-6xl mt-2 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]"
+      className="flex w-full max-w-6xl mt-2 mb-20 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]"
     >
       <section className="relative flex w-full max-w-6xl justify-between object-cover">
         <div className="flex flex-col justify-center p-4 z-10 ">
