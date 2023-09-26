@@ -15,7 +15,7 @@ function Intro() {
           <br />
           <br />
           <span className="text-blue-800 md:text-slate-100 text-5xl md:text-6xl font-bold">
-            I&apos;m
+            I&apos;m &nbsp;
             <span className="text-yellow-400 text-5xl md:text-6xl font-bold">
               Kian
             </span>
