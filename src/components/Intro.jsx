@@ -5,10 +5,10 @@ function Intro() {
   return (
     <div
       id="intro"
-      className="flex w-full max-w-6xl mt-2 mb-20 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]"
+      className="flex justify-center items-center w-full max-w-6xl mt-2 mb-20 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]"
     >
       <section className="relative flex w-full max-w-6xl justify-between object-cover">
-        <div className="flex flex-col justify-center p-4 z-10 ">
+        <div className="flex flex-col justify-center p-4 z-10 md:max-w-3xl">
           <span className="text-blue-800 md:text-slate-100 text-2xl md:text-3xl">
             Hello
           </span>
@@ -22,7 +22,10 @@ function Intro() {
           </span>
           <br />
           <br />
-          <span className="text-blue-800 animate-type-1 md:text-slate-100 text-5xl md:text-6xl font-bold">
+          <span className="text-blue-800 animate-type-1 md:text-slate-100 text-2xl sm:text-4xl font-bold">
+            Frontend
+          </span>
+          <span className="text-blue-800 animate-type-1 md:text-slate-100 text-4xl md:text-6xl font-bold">
             Web Developer
           </span>
           <br />
@@ -49,7 +52,7 @@ function Intro() {
         <img
           src={kian}
           alt="profile"
-          className="absolute md:block  right-0 mt-4 md:p-4 ml-4 w-[410px] object-fit z-0 "
+          className="absolute md:block  right-0 mt-4 sm:mt-0 sm:p-4 ml-4 w-[410px] object-fit z-0 "
         />
       </section>
     </div>

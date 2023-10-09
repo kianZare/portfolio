@@ -29,10 +29,10 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex w-full max-w-6xl justify-center items-center "
+      className="flex justify-center items-center w-full max-w-6xl mt-2 mb-20 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]"
     >
       <section className="flex flex-col justify-center items-center w-full max-w-3xl p-4">
-        <h1 className='flex justify-center text-6xl font-bold mb-4 "'>
+        <h1 className='flex justify-center text-4xl sm:text-6xl font-bold mb-4 "'>
           Contact Me
         </h1>
         <span className="flex ml-2 justify-center items-center p-2 text-xl ">

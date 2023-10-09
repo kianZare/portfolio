@@ -5,10 +5,10 @@ function Projects() {
   return (
     <div id="projects" className="flex max-w-6xl justify-center items-center ">
       <section className="p-4 mb-16 justify-center items-center">
-        <h1 className="flex justify-center text-6xl font-bold p-8">
+        <h1 className="flex justify-center text-4xl sm:text-6xl font-bold p-8">
           My Projects
         </h1>
-        <span className="flex justify-center text-xl md:text-2xl p-6">
+        <span className="flex justify-center text-lg sm:text-xl md:text-2xl p-6">
           In my portfolio, I am thrilled to showcase my expertise in web
           development, particularly in JavaScript, React, HTML, CSS, and
           TailwindCSS. As a meticulous and dedicated developer, I take pride in
