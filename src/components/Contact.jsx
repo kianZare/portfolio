@@ -29,54 +29,53 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex justify-center items-center w-full max-w-6xl mt-2 mb-20 md:mb-60 lg:mb-10 h-[calc(100vh-64px)]"
+      className="flex justify-center items-center w-full max-w-6xl mt-2 mb-20 md:mb-60 lg:mb-10 h-[calc(100vh-200px)]"
     >
-      <section className="flex flex-col justify-center items-center w-full max-w-3xl p-4">
+      <section className="flex relative flex-col justify-center items-center w-full max-w-3xl p-4">
         <h1 className='flex justify-center text-4xl sm:text-6xl font-bold mb-4 "'>
           Contact Me
         </h1>
         <span className="flex ml-2 justify-center items-center p-2 text-xl ">
           Please fill out the form below to discuss any work opportunites
         </span>
-
-        <form
-          className="flex flex-col w-[90vw] max-w-2xl text-lg"
-          ref={form}
-          onSubmit={sendEmail}
-        >
-          <input
-            type="text"
-            placeholder="Your Name"
-            name="your_name"
-            className="border h-10 px-4 py-7 bg-slate-700 m-1 rounded-lg"
-            required
-          />
-          <input
-            type="email"
-            placeholder="Your Email"
-            name="your_email"
-            className="border h-10 px-4 py-7 bg-slate-700 m-1 rounded-lg"
-            required
-          />
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Your Message"
-            className="p-4 bg-slate-700 m-1 rounded-lg"
-            required
-          ></textarea>
-          <div className="flex justify-center m-2">
-            <button
-              type="submit"
-              value="send"
-              className="w-44 bg-white border-none text-slate-900 text-xl font-bold p-4 rounded-lg box-border hover:bg-yellow-500"
-            >
-              {" "}
-              Submit
-            </button>
-          </div>
+    <form
+            className="flex flex-col w-[90vw] max-w-2xl text-lg"
+            ref={form}
+            onSubmit={sendEmail}
+          >
+            <input
+              type="text"
+              placeholder="Your Name"
+              name="your_name"
+              className="border h-10 px-4 py-7 bg-slate-700 m-1 rounded-lg"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              name="your_email"
+              className="border h-10 px-4 py-7 bg-slate-700 m-1 rounded-lg"
+              required
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              className="p-4 bg-slate-700 m-1 rounded-lg"
+              required
+            ></textarea>
+            <div className="flex justify-center m-2">
+              <button
+                type="submit"
+                value="send"
+                className="w-44 bg-white border-none text-slate-900 text-xl font-bold p-4 rounded-lg box-border hover:bg-yellow-500"
+              >
+                {" "}
+                Submit
+              </button>
+            </div>
         </form>
-        <div className="flex justify-center items-center mt-6">
+        <div className="flex mt-12">
           {contacts.map((item) => (
             <>
               <a href={item.URL} key={item.id}>
@@ -89,6 +88,7 @@ function Contact() {
             </>
           ))}
         </div>
+
       </section>
     </div>
   );
