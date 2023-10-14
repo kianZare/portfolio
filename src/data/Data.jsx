@@ -63,6 +63,14 @@ export const projects = [
     },
     {
       id: 5,
+      name: "NoteApp",
+      about: "",
+      description: "A Responcive NoteApp web site using React.js , CSS",
+      siteUrl: "https://kian-note-app.netlify.app/",
+      imageUrl: "../assets/projects/noteApp2.png",
+    },
+    {
+      id: 6,
       name: "Search Photos",
       about: "",
       description: "A responsive search web site using React.js , API, CSS",
@@ -70,7 +78,7 @@ export const projects = [
       imageUrl: "../assets/projects/searchphoto.png",
     },
     {
-      id: 6,
+      id: 7,
       name: "noteapp",
       about: "",
       description: "A Note app web site using JavaScript, OOP, HTML, CSS",
@@ -78,7 +86,7 @@ export const projects = [
       imageUrl: "../assets/projects/noteapp.png",
     },
     {
-      id: 7,
+      id: 8,
       name: "Clock",
       about: "",
       description: "A clock using JavaScript, HTML, CSS",
@@ -86,7 +94,7 @@ export const projects = [
       imageUrl: "../assets/projects/clock.png",
     },
     {
-      id: 8,
+      id: 9,
       name: "Calculator",
       about: "",
       description: "A calculator using javaScript, HTML, CSS",
