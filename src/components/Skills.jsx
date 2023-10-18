@@ -13,8 +13,8 @@ function Skills() {
           <br />
           <span className="flex justify-center text-lg sm:text-xl md:text-2xl">
             <p className="flex justify-center p-6">
-              As a skilled and passionate web developer, I specialize in
-              utilizing JavaScript, React, HTML, CSS, and TailwindCSS to design
+              As a passionate and skilled web developer, I specialise in
+              utilising JavaScript, React, HTML, CSS, and TailwindCSS to design
               and develop responsive and user-friendly websites. My expertise in
               these technologies enables me to create dynamic and visually
               appealing websites that cater to the needs of clients and users

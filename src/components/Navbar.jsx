@@ -129,7 +129,7 @@ function Navbar() {
             spy={true}
             smooth={true}
             offset={-50}
-            duration={1000}
+            duration={1500}
             className="bg-slate-900 m-1 hover:text-yellow-400 hover:bg-slate-600 p-2 rounded-lg hover:font-bold"
             onClick={()=>setShowMenu(false)}
           >

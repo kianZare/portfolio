@@ -31,7 +31,7 @@ function Intro() {
           <br />
           <br />
           <span className="text-blue-800 md:text-slate-100 text-2xl font-semibold md:text-3xl">
-            I&apos;m a skilled and passionate web developer utilizing JavaScript,
+            I&apos;m a passionate and skilled web developer utilising JavaScript,
             React, HTML, CSS and TailwindCSS to create responsive and
             user-friendly websites.
           </span>
