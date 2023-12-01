@@ -39,9 +39,7 @@ function Skills() {
           </div>
           <div className="flex justify-center object-cover gap-2 mt-8 md:mt-12">
             {skills.map((item) => (
-              <>
                 <img key={item.id} className="w-16 md:w-40 rounded-3xl md:p-2 hover:scale-125" src={item.imageUrl} alt={item.name} />
-              </>
             ))}
           </div>
         </section>

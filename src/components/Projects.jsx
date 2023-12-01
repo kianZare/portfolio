@@ -1,6 +1,5 @@
 import { projects } from "../data/Data";
 
-
 function Projects() {
   return (
     <div id="projects" className="flex max-w-6xl justify-center items-center ">
@@ -18,37 +17,40 @@ function Projects() {
           experience, I am passionate about helping businesses achieve their
           goals and establish a strong online presence. I am excited to
           collaborate with clients to create responsive and user-friendly
-          websites that exceed expectations. Let&apos;s work together to bring your
-          vision to life!
+          websites that exceed expectations. Let&apos;s work together to bring
+          your vision to life!
         </span>
         {/* Projects */}
         <div>
           {projects.map((item) => (
-            <>
               <div
                 key={item.id}
                 className="flex justify-center max-w-6xl relative"
               >
-                <div className="flex md:w-[800px] border rounded-2xl mt-12 gap-4 overflow-hidden ">
-                  <a href={item.siteUrl}>
-                    <img
-                      src={item.imageUrl}
-                      alt={item.name}
-                      className="w-96 md:h-60 object-cover cursor-pointer"
-                    />
-                  </a>
-                  <div className="hidden md:block flex-col justify-between p-4">
-                    <h2 className="text-2xl font-bold text-yellow-400 mb-3">
-                      {item.name}
-                    </h2>
-                    <p className="text-lg ">{item.description}</p>
-                    <div className="md:absolute max-w-xs bottom-4 text-blue-500">
-                      <a href={item.siteUrl}>URL: {item.siteUrl}</a>
+                <div className="flex md:w-[900px] border rounded-2xl mt-12 gap-4 overflow-hidden ">
+                  <div className="flex">
+                    <div className="md:basis-2/5">
+                      <a href={item.siteUrl}>
+                        <img
+                          src={item.imageUrl}
+                          alt={item.name}
+                          className=" md:h-60 cursor-pointer"
+                        />
+                      </a>
+                    </div>
+                    <div className="hidden md:block flex-col justify-between p-4 basis-3/5">
+                      <h2 className="text-2xl font-bold text-yellow-400 mb-3">
+                        {item.name}
+                      </h2>
+                      <p className="text-lg">{item.description}</p>
+                      <p className="text-lg">{item.about}</p>
+                      <div className="md:absolute max-w-xs bottom-2 text-blue-500">
+                        <a href={item.siteUrl}>URL: {item.siteUrl}</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </>
           ))}
         </div>
       </section>
